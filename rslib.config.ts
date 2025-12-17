@@ -8,4 +8,11 @@ export default defineConfig({
       dts: true,
     },
   ],
+  output: {
+    distPath: 'dist',
+    cleanDistPath: true,
+    filename: {
+      js: 'task-tracker.js',
+    },
+  },
 });
