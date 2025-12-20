@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.0.2-beta.4
+
+### &nbsp;&nbsp;&nbsp;Features
+
+- Add GitHub Packages authentication token to .npmrc &nbsp;-&nbsp; by **barathrajd** [<samp>(a4cce)</samp>](https://github.com/barathrajd/task-tracker-nodejs/commit/a4ccec5)
+- Bump version to 0.0.2-beta.2 and add GitHub Packages authentication token to .npmrc &nbsp;-&nbsp; by **barathrajd** [<samp>(50753)</samp>](https://github.com/barathrajd/task-tracker-nodejs/commit/507530a)
+
+### &nbsp;&nbsp;&nbsp;Bug Fixes
+
+- Corrected typo in package name and npm registry scope &nbsp;-&nbsp; by **barathrajd** [<samp>(e38fa)</samp>](https://github.com/barathrajd/task-tracker-nodejs/commit/e38fa1a)
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/barathrajd/task-tracker-nodejs/compare/0.0.1...0.0.2-beta.4)
+
 ## 0.0.2-beta.3
 
 ### &nbsp;&nbsp;&nbsp;Features
