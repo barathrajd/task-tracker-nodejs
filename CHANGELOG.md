@@ -1,4 +1,13 @@
-## 0.0.1 (2025-12-20)
+## [0.0.2](https://github.com/barathrajd/task-tracker-nodejs/compare/v0.0.1...v0.0.2) (2025-12-20)
+
+
+### Features
+
+* Add conventional changelog generation script, dependencies, and initial changelog file. ([738b858](https://github.com/barathrajd/task-tracker-nodejs/commit/738b85877ccd0a0f5ad38d4f3ce70ff5de946e43))
+
+
+
+## [0.0.1](https://github.com/barathrajd/task-tracker-nodejs/compare/05e44d5b3e6e6cd18ce4482002c8c008a46617a7...v0.0.1) (2025-12-20)
 
 
 ### Features
