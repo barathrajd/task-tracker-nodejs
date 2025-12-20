@@ -3,7 +3,7 @@
   "plugins": {
     "release-it-pnpm": {
       "inFile": "CHANGELOG.md",
-      "publishCommand": "pnpm publish"
+      "publishCommand": "pnpm publish --no-git-checks"
     }
   },
   "git": {
