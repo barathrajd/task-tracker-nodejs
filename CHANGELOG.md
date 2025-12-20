@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.2-beta.8
+
+### &nbsp;&nbsp;&nbsp;Features
+
+- Add lint script using Biome check &nbsp;-&nbsp; by **barathrajd** [<samp>(44488)</samp>](https://github.com/barathrajd/task-tracker-nodejs/commit/4448854)
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/barathrajd/task-tracker-nodejs/compare/0.0.2-beta.6...0.0.2-beta.8)
+
 ## 0.0.2-beta.7
 
 ### &nbsp;&nbsp;&nbsp;Features
