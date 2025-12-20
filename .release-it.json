@@ -1,6 +1,9 @@
 {
   "plugins": {
-    "release-it-pnpm": {}
+    "release-it-pnpm": {
+      "inFile": "CHANGELOG.md",
+      "publishCommand": "pnpm publish dist"
+    }
   },
   "git": {
     "commitMessage": "chore: release ${version}",
