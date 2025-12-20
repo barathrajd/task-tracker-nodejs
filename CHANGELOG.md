@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.2
+
+*No significant changes*
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/barathrajd/task-tracker-nodejs/compare/0.0.2-beta.10...0.0.2-beta.11)
+
 ## 0.0.2-beta.11
 
 *No significant changes*
