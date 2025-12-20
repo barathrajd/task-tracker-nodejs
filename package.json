@@ -17,6 +17,9 @@
   "files": [
     "dist/"
   ],
+  "bin": {
+    "task-cli": "bin/task-cli.js"
+  },
   "types": "./dist/index.d.ts",
   "scripts": {
     "postbuild": "node scripts/setup-bin.mjs",
