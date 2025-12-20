@@ -1,4 +1,5 @@
 {
+  "$schema": "https://unpkg.com/release-it@19/schema/release-it.json",
   "plugins": {
     "release-it-pnpm": {
       "inFile": "CHANGELOG.md",
@@ -7,6 +8,20 @@
   },
   "git": {
     "commitMessage": "chore: release ${version}",
-    "tagName": "${version}"
+    "tagName": "${version}",
+    "commit": true
+  },
+  "npm": {
+    "publish": true
+  },
+  "hooks": {
+    "before:init": ["pnpm lint"],
+    "after:bump": "pnpm build && pnpm tarball",
+    "after:release": "echo Successfully created a release ${version} for ${repo.repository}."
+  },
+  "github": {
+    "release": true,
+    "draft": true,
+    "releaseName": "✨ ${version}"
   }
 }
