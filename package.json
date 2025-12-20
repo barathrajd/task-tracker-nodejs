@@ -41,5 +41,8 @@
     "release-it-pnpm": "^4.6.6",
     "typescript": "5.9.3"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "packageManager": "pnpm@10.26.0"
 }
