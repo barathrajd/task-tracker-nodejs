@@ -1,6 +1,6 @@
 {
-  "name": "task-tracker",
-  "version": "1.0.0",
+  "name": "@barthrajd/task-tracker",
+  "version": "0.0.1",
   "type": "module",
   "exports": {
     ".": {
@@ -8,15 +8,13 @@
       "import": "./dist/index.js"
     }
   },
-  "types": "./dist/index.d.ts",
-  "bin": "bin/task-tracker.js",
   "files": [
-    "dist",
-    "bin"
+    "dist/"
   ],
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "prepare": "node scripts/setup-bin.mjs",
-    "build": "rslib build",
+    "postbuild": "node scripts/setup-bin.mjs",
+    "build": "rslib build && pnpm postbuild",
     "check": "biome check --write",
     "dev": "rslib build --watch",
     "format": "biome format --write",
@@ -26,8 +24,8 @@
   "devDependencies": {
     "@biomejs/biome": "2.3.8",
     "@rslib/core": "0.18.4",
-    "@rstest/core": "0.7.1",
-    "@types/node": "22.21.1",
+    "@rstest/core": "0.7.5",
+    "@types/node": "22.19.3",
     "typescript": "5.9.3"
   },
   "private": true

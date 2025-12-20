@@ -12,7 +12,7 @@ export default defineConfig({
     distPath: 'dist',
     cleanDistPath: true,
     filename: {
-      js: 'task-tracker.js',
+      js: 'task-cli.js',
     },
   },
 });
