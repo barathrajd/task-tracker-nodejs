@@ -16,7 +16,7 @@
   },
   "hooks": {
     "before:init": ["pnpm lint"],
-    "after:bump": "pnpm build && pnpm tarball",
+    "after:bump": "pnpm build",
     "after:release": "echo Successfully created a release ${version} for ${repo.repository}."
   },
   "github": {
