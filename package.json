@@ -29,6 +29,7 @@
     "format": "biome format --write",
     "cli": "node --watch dist/task-tracker.js",
     "test": "rstest",
+    "lint": "biome check",
     "release": "release-it"
   },
   "devDependencies": {
